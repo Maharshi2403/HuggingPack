@@ -12,6 +12,9 @@ import descriptions from "./constants/landingPageConst";
 
 
 export default function Home() {
+
+
+  
   return (
     <>
       <div className="w-screen h-screen overflow-x-hidden overflow-y-hidden">
@@ -35,7 +38,7 @@ export default function Home() {
             {descriptions.intro}
           </div>
           <div className="flex flex-row w-100 h-20 justify-center items-center mt-10 font-mono">
-            <button className="w-30 h-15 bg-[#117104] mr-4 rounded-xl text-[#000000] justify-center items-center ">
+            <button className="w-30 h-15 bg-[#117104] mr-4 rounded-xl text-[#000000] justify-center items-center " >
               <FontAwesomeIcon
                 icon={faHammer}
                 size="xl"
